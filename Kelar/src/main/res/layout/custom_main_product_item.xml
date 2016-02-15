@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="250dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="@color/white"
+    android:layout_marginRight="@dimen/custom_favorite_item_margin_right"
+    android:layout_marginBottom="@dimen/custom_favorite_item_margin_bottom"
+    android:layout_marginTop="@dimen/custom_favorite_item_margin_top"
+    android:layout_marginLeft="@dimen/custom_favorite_item_margin_left">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/imgProduct"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/custom_main_product_item_img_product_height"
+            android:scaleType="centerCrop"
+            android:layout_alignParentTop="true"
+            app:placeholderImage="@drawable/default_product" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:maxLines="2"
+            android:layout_marginTop="6dp"
+            android:layout_below="@id/imgProduct"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="end"
+            android:padding="2dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/custom_main_product_item_txt_title_text_size" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="5dp"
+            android:layout_below="@id/txtTitle"
+            android:layout_centerHorizontal="true"
+            android:text="TextView"
+            android:textColor="@color/primary_darker"
+            android:textSize="@dimen/custom_main_product_item_ribbon_txt_price_text_size" />
+
+        <TextView
+            android:id="@+id/txtOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingTop="@dimen/custom_main_product_item_ribbon_txt_price_padding_top"
+            android:paddingBottom="@dimen/custom_main_product_item_ribbon_txt_price_padding_top"
+            android:visibility="gone"
+            android:text="TextView"
+            android:textColor="@color/red"
+            android:textSize="@dimen/custom_main_product_item_ribbon_txt_price_text_size" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

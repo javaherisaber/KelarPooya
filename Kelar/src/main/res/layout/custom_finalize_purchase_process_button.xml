@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="@dimen/custom_purchase_process_ribbon_btn_final_purchase_height"
+    android:background="@color/green"
+    android:orientation="horizontal"
+    android:id="@+id/btnFinalize"
+    android:layout_gravity="bottom"
+    android:clickable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txtBtSheetSubmitOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="نهایی کردن سفارش"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textSize="@dimen/custom_purchase_process_ribbon_btn_final_purchase_txt_btsheet5_text_size"/>
+
+</FrameLayout>

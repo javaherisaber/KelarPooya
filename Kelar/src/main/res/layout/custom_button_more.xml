@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/custom_button_more_width"
+    android:layout_height="@dimen/custom_button_more_height"
+    style="@style/Widget.AppCompat.Button.Colored" />

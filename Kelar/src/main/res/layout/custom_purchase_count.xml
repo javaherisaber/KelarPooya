@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/counterPanel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgPurchase"
+        android:layout_width="@dimen/custom_purchase_count_img_purchase_size"
+        android:layout_height="@dimen/custom_purchase_count_img_purchase_size"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_shopping_cart_white_24dp"/>
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_gravity="right|top"
+        android:background="@drawable/background_purchase_count"
+        android:text="1"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/primary" />
+
+</FrameLayout>

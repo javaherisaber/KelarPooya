@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="1dp"
+    android:background="@color/white"
+    android:layout_height="70dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/imgCategory"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        app:placeholderImage="@drawable/default_product" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/imgCategory"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_centerVertical="true"
+        android:text="@string/YOUR_FIRST_PRODUCT"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

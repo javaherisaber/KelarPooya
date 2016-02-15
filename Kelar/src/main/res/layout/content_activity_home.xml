@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    android:id="@+id/scrollViewProduct"
+    android:layout_width="wrap_content"
+    android:scrollbars="none"
+    android:background="@color/iron"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            custom:pager_animation="Default"
+            custom:auto_cycle="true"
+            android:background="@color/iron"
+            custom:indicator_visibility="visible"
+            custom:pager_animation_span="1100"
+            custom:layout_collapseMode="pin"
+            android:layout_height="@dimen/activity_home_slider_height" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/tabRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_marginTop="@dimen/activity_home_tab_recycler_margin_top"
+            android:layout_marginBottom="@dimen/activity_home_tab_recycler_margin_bottom"
+            android:choiceMode="singleChoice" />
+
+        <LinearLayout
+            android:id="@+id/linearRowLayout"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:id="@+id/frameHorizontalProgress" >
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progressBar2"
+                    android:layout_gravity="bottom"
+                    android:indeterminate="true" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

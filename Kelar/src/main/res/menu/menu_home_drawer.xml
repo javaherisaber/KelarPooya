@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_favorite"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_favorite"
+        android:title="@string/MY_POPULAR_PRODUCTS"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_call"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_call_support"
+        android:title="@string/CALL_WITH_SUPPORT"
+        app:showAsAction="always"/>
+
+
+        <!--<item-->
+        <!--android:id="@+id/action_sms"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:icon="@mipmap/ic_sms"-->
+        <!--android:title="@string/SEND_SMS_SUPPORT"-->
+        <!--app:showAsAction="always"/>-->
+
+
+    <item
+        android:id="@+id/action_web"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_web"
+        android:title="@string/SURF_WEBSITE"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_email"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_email"
+        android:title="@string/SEND_EMAIL"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_bot"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_bot"
+        android:title="@string/OUR_TELEGRAM_BOT"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_kelar_tv"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_tv"
+        android:title="@string/LAUNCH_TEACH"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_basket"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_shopping_cart_white_24dp"
+        android:title="@string/PURCHASE_BASKET"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_order"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_order"
+        android:title="@string/ORDERS"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_map"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_map"
+        android:title="@string/ADDRESS_ON_MAP"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_projects"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_project"
+        android:title="@string/PROJECTS"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_agency"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_agency"
+        android:title="@string/AGENCIES"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_contact_us"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_call"
+        android:title="@string/CONTACT_US"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_about_us"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_about"
+        android:title="@string/ABOUT_US"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_logout"
+        android:visible="true"
+        android:title="@string/LOG_OUT"
+        app:showAsAction="always"/>
+
+</menu>

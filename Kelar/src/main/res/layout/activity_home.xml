@@ -1,0 +1,57 @@
+<android.support.v4.widget.DrawerLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/drawer_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/iron"
+	android:fitsSystemWindows="true">
+
+	<android.support.design.widget.CoordinatorLayout
+		android:id="@+id/coordinator"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" >
+
+		<android.support.design.widget.AppBarLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#00FFFFFF"
+			app:elevation="0dp"
+			android:theme="@style/ThemeOverlay.AppCompat.Dark">
+			<android.support.v7.widget.Toolbar
+				android:id="@+id/toolbar"
+				android:layout_width="match_parent"
+				android:layout_height="?attr/actionBarSize"
+				android:background="@drawable/background_toolbar_menu"
+				app:popupTheme="@style/MyDarkToolbarStyle"
+				android:theme="@style/ThemeOverlay.AppCompat.Dark" >
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@color/white"
+					android:layout_gravity="center_vertical|right"
+					android:id="@+id/toolbar_title" />
+
+			</android.support.v7.widget.Toolbar>
+
+		</android.support.design.widget.AppBarLayout>
+
+		<include layout="@layout/content_activity_home" />
+
+	</android.support.design.widget.CoordinatorLayout>
+
+	<include layout="@layout/content_activity_home_splash" />
+
+	<include layout="@layout/content_no_internet_layout" />
+
+
+
+	<android.support.design.widget.NavigationView
+		android:id="@+id/navigation_view"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_gravity="start"
+		app:headerLayout="@layout/drawer_header"
+		app:menu="@menu/menu_home_drawer"/>
+</android.support.v4.widget.DrawerLayout>

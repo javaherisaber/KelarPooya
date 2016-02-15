@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardPreventCornerOverlap="false"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_marginRight="@dimen/custom_product_item1_margin_right"
+    android:layout_marginBottom="@dimen/custom_product_item1_margin_bottom"
+    android:layout_marginTop="@dimen/custom_product_item1_margin_top"
+    android:layout_marginLeft="@dimen/custom_product_item1_margin_left"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/agency"/>
+
+        <TextView
+            android:id="@+id/txtCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="قم"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@id/imgProfile"/>
+
+        <TextView
+            android:id="@+id/txtPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تلفن : 09390380124"
+            android:textSize="18sp"
+            android:textColor="@color/primary_dark"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@id/imgProfile"
+            android:layout_below="@id/txtCity"/>
+
+        <TextView
+            android:id="@+id/txtName"
+            android:text="نام و نام خانوادگی"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.001dp"
+            android:background="#a2a2a2"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

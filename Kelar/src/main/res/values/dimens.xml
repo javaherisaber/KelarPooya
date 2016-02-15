@@ -1,0 +1,268 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <!-- Activity Favorite Sizes -->
+
+    <!-- activity_home Sizes -->
+    <dimen name="activity_home_category_item_top_margin">10dp</dimen>
+    <dimen name="activity_home_category_item_top_txt_category_title">18sp</dimen>
+    <dimen name="activity_home_category_item_top_btn_more_width">60dp</dimen>
+    <dimen name="activity_home_category_item_top_btn_more_height">33dp</dimen>
+    <dimen name="activity_home_category_item_top_btn_more_text_size">16sp</dimen>
+    <dimen name="activity_home_category_item_top_recycler_layout_height">260dp</dimen>
+    <dimen name="activity_home_slider_height">200dp</dimen>
+    <dimen name="activity_home_tab_recycler_margin_top">14dp</dimen>
+    <dimen name="activity_home_tab_recycler_margin_bottom">10dp</dimen>
+
+
+    <!-- Activity Login Sizes -->
+    <dimen name="activity_login_margin_right">30dp</dimen>
+    <dimen name="activity_login_margin_left">30dp</dimen>
+    <dimen name="activity_login_padding_top">30dp</dimen>
+    <dimen name="activity_login_padding_right">60dp</dimen>
+    <dimen name="activity_login_padding_bottom">30dp</dimen>
+    <dimen name="activity_login_padding_left">60dp</dimen>
+    <dimen name="activity_login_elevation">4dp</dimen>
+    <dimen name="activity_login_user_profile_photo_size">120dp</dimen>
+    <dimen name="activity_login_user_profile_photo_elevation">6dp</dimen>
+    <dimen name="activity_login_edt_username_margin_top">60dp</dimen>
+    <dimen name="activity_login_edt_password_margin_top">10dp</dimen>
+    <dimen name="activity_login_btn_forget_password_padding_top">5dp</dimen>
+    <dimen name="activity_login_btn_forget_password_margin_top">15dp</dimen>
+    <dimen name="activity_login_btn_sign_in_margin_top">60dp</dimen>
+    <dimen name="activity_login_btn_sign_in_width">180dp</dimen>
+    <dimen name="activity_login_btn_sign_in_height">60dp</dimen>
+    <dimen name="activity_login_btn_sign_in_margin_right">20dp</dimen>
+    <dimen name="activity_login_btn_sign_in_margin_left">20dp</dimen>
+    <dimen name="activity_login_btn_sign_in_text_size">18sp</dimen>
+    <dimen name="activity_login_btn_register_margin_bottom">60dp</dimen>
+    <dimen name="activity_login_btn_register_padding_top">5dp</dimen>
+    <dimen name="activity_login_btn_register_margin_top">15dp</dimen>
+
+
+    <!-- activity_product_ Sizes -->
+    <dimen name="activity_product_btn_purchase_height">60dp</dimen>
+    <dimen name="activity_product_btn_purchase_image_size">30dp</dimen>
+    <dimen name="activity_product_btn_purchase_image__margin_right">16dp</dimen>
+    <dimen name="activity_product_txt_purchase_text_size">22sp</dimen>
+    <dimen name="activity_product_bottom_sheet_shadow_height">5dp</dimen>
+    <dimen name="activity_product_bottom_sheet_elevation">15dp</dimen>
+    <dimen name="activity_product_scrollview_margin_bottom">60dp</dimen>
+    <dimen name="activity_product_slider_height">200dp</dimen>
+    <dimen name="activity_product_slider_indicator_height">20dp</dimen>
+    <dimen name="activity_product_slider_indicator_padding">3dp</dimen>
+    <dimen name="activity_product_detail_card_margin_right">10dp</dimen>
+    <dimen name="activity_product_detail_card_margin_left">10dp</dimen>
+    <dimen name="activity_product_detail_card_margin_top">10dp</dimen>
+    <dimen name="activity_product_detail_card_margin_bottom">5dp</dimen>
+    <dimen name="activity_product_detail_card_txt_title_height">50dp</dimen>
+    <dimen name="activity_product_detail_card_txt_title_margin_right">10dp</dimen>
+    <dimen name="activity_product_detail_card_txt_title_text_size">20sp</dimen>
+    <dimen name="activity_product_detail_card_ribbon_margin">10dp</dimen>
+    <dimen name="activity_product_detail_card_ribbon_img_colors_width">45dp</dimen>
+    <dimen name="activity_product_detail_card_ribbon_btn_size">40dp</dimen>
+    <dimen name="activity_product_detail_card_ribbon_btn_margin_right">10dp</dimen>
+    <dimen name="activity_product_detail_card_txt_desc_margin">10dp</dimen>
+    <dimen name="activity_product_detail_card_txt_desc_text_size">18sp</dimen>
+    <dimen name="activity_product_rating_bar_card_margin_right">10dp</dimen>
+    <dimen name="activity_product_rating_bar_card_margin_left">10dp</dimen>
+    <dimen name="activity_product_rating_bar_card_margin_top">5dp</dimen>
+    <dimen name="activity_product_rating_bar_card_margin_bottom">10dp</dimen>
+    <dimen name="activity_product_rating_bar_card_padding">10dp</dimen>
+    <dimen name="activity_product_rating_bar_card_rating_bar_margin_left">10dp</dimen>
+    <dimen name="activity_product_rating_bar_card_txt_rate_num_margin_left">20dp</dimen>
+
+
+    <!-- activity_product_list_ Sizes -->
+
+    <!-- Activity Purchase Basket Sizes -->
+
+    <!-- Activity Search Sizes -->
+
+    <!-- activity_technical_specification Sizes -->
+    <dimen name="activity_technical_specification_header_card_elevation">2dp</dimen>
+    <dimen name="activity_technical_specification_header_card_corner_radius">2dp</dimen>
+    <dimen name="activity_technical_specification_header_card_elevation_margin_right">5dp</dimen>
+    <dimen name="activity_technical_specification_header_card_elevation_margin_left">5dp</dimen>
+    <dimen name="activity_technical_specification_header_card_margin_top">5dp</dimen>
+    <dimen name="activity_technical_specification_header_card_margin_bottom">5dp</dimen>
+    <dimen name="activity_technical_specification_txt_title_text_size">18sp</dimen>
+    <dimen name="activity_technical_specification_txt_title_margin">20dp</dimen>
+    <dimen name="activity_technical_specification_img_product_size">120dp</dimen>
+    <dimen name="activity_technical_specification_img_product_margin_left">15dp</dimen>
+
+
+    <!-- custom_button_more_ sizes -->
+    <dimen name="custom_button_more_width">60dp</dimen>
+    <dimen name="custom_button_more_height">50dp</dimen>
+
+    <!-- custom_category_item_ -->
+    <dimen name="custom_category_item_margin_right">3dp</dimen>
+    <dimen name="custom_category_item_margin_left">3dp</dimen>
+    <dimen name="custom_category_item_txt_tab_name_text_size">18sp</dimen>
+    <dimen name="custom_category_item_txt_tab_name_margin_top">6dp</dimen>
+    <dimen name="custom_category_item_txt_tab_name_margin_bottom">3dp</dimen>
+    <dimen name="custom_category_item_txt_tab_name_margin_right">12dp</dimen>
+    <dimen name="custom_category_item_txt_tab_name_margin_left">12dp</dimen>
+
+
+    <!-- custom_comment_item_ -->
+    <dimen name="custom_comment_item_margin_top">3dp</dimen>
+    <dimen name="custom_comment_item_margin_right">6dp</dimen>
+    <dimen name="custom_comment_item_margin_bottom">3dp</dimen>
+    <dimen name="custom_comment_item_margin_left">6dp</dimen>
+    <dimen name="custom_comment_item_padding">10dp</dimen>
+    <dimen name="custom_comment_item_txt_title_margin_right">10dp</dimen>
+    <dimen name="custom_comment_item_txt_comment_padding_top">20dp</dimen>
+    <dimen name="custom_comment_item_txt_comment_padding_left">10dp</dimen>
+    <dimen name="custom_comment_item_txt_comment_padding_right">10dp</dimen>
+    <dimen name="custom_comment_item_btn_layout_margin_top">20dp</dimen>
+    <dimen name="custom_comment_item_btn_layout_img_comment_size">35dp</dimen>
+    <dimen name="custom_comment_item_btn_layout_img_comment_margin_right">20dp</dimen>
+    <dimen name="custom_comment_item_btn_layout_txt_name_margin_right">10dp</dimen>
+    <dimen name="custom_comment_item_btn_layout_img_like_size">35dp</dimen>
+    <dimen name="custom_comment_item_btn_layout_img_like_margin_left">30dp</dimen>
+    <dimen name="custom_comment_item_btn_layout_img_dislike_size">35dp</dimen>
+    <dimen name="custom_comment_item_btn_layout_img_dislike_margin_left">20dp</dimen>
+    <dimen name="custom_comment_item_btn_layout_">20dp</dimen>
+
+
+    <!-- custom_favorite_item_ sizes -->
+    <dimen name="custom_favorite_item_margin_top">3dp</dimen>
+    <dimen name="custom_favorite_item_margin_right">6dp</dimen>
+    <dimen name="custom_favorite_item_margin_bottom">6dp</dimen>
+    <dimen name="custom_favorite_item_margin_left">6dp</dimen>
+    <dimen name="custom_favorite_item_img_product_size">120dp</dimen>
+    <dimen name="custom_favorite_item_img_product_margin">10dp</dimen>
+    <dimen name="custom_favorite_item_txt_title_margin_top">20dp</dimen>
+    <dimen name="custom_favorite_item_txt_desc_margin_left">20dp</dimen>
+    <dimen name="custom_favorite_item_btn_layout_margin_right">15dp</dimen>
+    <dimen name="custom_favorite_item_btn_layout_margin_left">5dp</dimen>
+    <dimen name="custom_favorite_item_btn_layout_btn_delete_size">40dp</dimen>
+    <dimen name="custom_favorite_item_btn_layout_btn_delete_padding">5dp</dimen>
+
+
+    <!-- custom_main_product_item_ -->
+    <dimen name="custom_main_product_item_height">235dp</dimen>
+    <dimen name="custom_main_product_item_width">150dp</dimen>
+    <dimen name="custom_main_product_item_margin_left">4dp</dimen>
+    <dimen name="custom_main_product_item_margin_right">4dp</dimen>
+    <dimen name="custom_main_product_item_img_product_height">150dp</dimen>
+    <dimen name="custom_main_product_item_img_product_padding">10dp</dimen>
+    <dimen name="custom_main_product_item_txt_title_height">30dp</dimen>
+    <dimen name="custom_main_product_item_txt_title_text_size">16sp</dimen>
+    <dimen name="custom_main_product_item_ribbon_height">40dp</dimen>
+    <dimen name="custom_main_product_item_ribbon_img_overflow_menu_size">15dp</dimen>
+    <dimen name="custom_main_product_item_ribbon_img_overflow_menu_margin_left">5dp</dimen>
+    <dimen name="custom_main_product_item_ribbon_txt_price_padding_top">3dp</dimen>
+    <dimen name="custom_main_product_item_ribbon_txt_price_padding_right">10dp</dimen>
+    <dimen name="custom_main_product_item_ribbon_txt_price_text_size">16sp</dimen>
+
+
+    <!-- custom_product_item1_ -->
+    <dimen name="custom_product_item1_margin_top">5dp</dimen>
+    <dimen name="custom_product_item1_margin_right">6dp</dimen>
+    <dimen name="custom_product_item1_margin_bottom">5dp</dimen>
+    <dimen name="custom_product_item1_margin_left">6dp</dimen>
+    <dimen name="custom_product_item1_img_product_size">120dp</dimen>
+    <dimen name="custom_product_item1_img_product_margin">10dp</dimen>
+    <dimen name="custom_product_item1_txt_title_margin_top">20dp</dimen>
+    <dimen name="custom_product_item1_txt_desc_margin_left">20dp</dimen>
+    <dimen name="custom_product_item1_ribbon_margin">12dp</dimen>
+    <dimen name="custom_product_item1_ribbon_btn_share_size">30dp</dimen>
+    <dimen name="custom_product_item1_ribbon_btn_favorite_size">30dp</dimen>
+    <dimen name="custom_product_item1_ribbon_btn_favorite_margin_left">20dp</dimen>
+
+
+    <!-- custom_purchase_basket_item_ -->
+    <dimen name="custom_purchase_basket_item_margin_top">3dp</dimen>
+    <dimen name="custom_purchase_basket_item_margin_right">6dp</dimen>
+    <dimen name="custom_purchase_basket_item_margin_bottom">3dp</dimen>
+    <dimen name="custom_purchase_basket_item_margin_left">6dp</dimen>
+    <dimen name="custom_purchase_basket_item_img_product_size">120dp</dimen>
+    <dimen name="custom_purchase_basket_item_img_product_margin">10dp</dimen>
+    <dimen name="custom_purchase_basket_item_txt_title_margin_top">20dp</dimen>
+    <dimen name="custom_purchase_basket_item_txt_desc_margin_left">20dp</dimen>
+    <dimen name="custom_purchase_basket_item_edt_count_margin_top">20dp</dimen>
+    <dimen name="custom_purchase_basket_item_edt_count_height">50dp</dimen>
+    <dimen name="custom_purchase_basket_item_ribbon_margin_right">15dp</dimen>
+    <dimen name="custom_purchase_basket_item_ribbon_margin_left">5dp</dimen>
+    <dimen name="custom_purchase_basket_item_ribbon_btn_delete_size">40dp</dimen>
+    <dimen name="custom_purchase_basket_item_ribbon_btn_delete_padding">5dp</dimen>
+
+    <!-- custom_purchase_count_ -->
+    <dimen name="custom_purchase_count_img_purchase_size">32dp</dimen>
+    <dimen name="custom_purchase_count_txt_count_width">18dp</dimen>
+    <dimen name="custom_purchase_count_txt_count_height">18dp</dimen>
+    <dimen name="custom_purchase_count_txt_count_text_size">12sp</dimen>
+
+
+    <!-- custom_purchase_process_ -->
+    <dimen name="custom_purchase_process_margin_top">5dp</dimen>
+    <dimen name="custom_purchase_process_txt_btsheet_title_padding">20dp</dimen>
+    <dimen name="custom_purchase_process_spinner_layout_height">50dp</dimen>
+    <dimen name="custom_purchase_process_spinner_layout_margin">15dp</dimen>
+    <dimen name="custom_purchase_process_ribbon_count_padding">20dp</dimen>
+    <dimen name="custom_purchase_process_ribbon_count_txt_btsheet3_text_size">16sp</dimen>
+    <dimen name="custom_purchase_process_ribbon_count_edt_btsheet_product_count_width">80dp</dimen>
+    <dimen name="custom_purchase_process_ribbon_price_padding_top">10dp</dimen>
+    <dimen name="custom_purchase_process_ribbon_price_padding_right">20dp</dimen>
+    <dimen name="custom_purchase_process_ribbon_price_padding_bottom">5dp</dimen>
+    <dimen name="custom_purchase_process_ribbon_price_padding_left">20dp</dimen>
+    <dimen name="custom_purchase_process_ribbon_price_txt_btsheet1_text_size">16sp</dimen>
+    <dimen name="custom_purchase_process_ribbon_price_txt_btsheet_value_price_text_size">16sp
+    </dimen>
+    <dimen name="custom_purchase_process_ribbon_total_price_padding_top">10dp</dimen>
+    <dimen name="custom_purchase_process_ribbon_total_price_padding_bottom">15dp</dimen>
+    <dimen name="custom_purchase_process_ribbon_total_price_padding_right">20dp</dimen>
+    <dimen name="custom_purchase_process_ribbon_total_price_padding_left">20dp</dimen>
+    <dimen name="custom_purchase_process_ribbon_total_price_txt_btsheet2_text_size">16sp</dimen>
+    <dimen name="custom_purchase_process_ribbon_total_price_txt_btsheet_total_price_text_size">
+        16sp
+    </dimen>
+    <dimen name="custom_purchase_process_ribbon_btn_final_purchase_height">60dp</dimen>
+    <dimen name="custom_purchase_process_ribbon_btn_final_purchase_img_purchase_size">30dp</dimen>
+    <dimen name="custom_purchase_process_ribbon_btn_final_purchase_img_purchase_margin_right">8dp
+    </dimen>
+    <dimen name="custom_purchase_process_ribbon_btn_final_purchase_txt_btsheet5_text_size">22sp
+    </dimen>
+
+
+    <!-- custom_slide_indicator_ -->
+    <dimen name="custom_slide_indicator_selected_padding_left">3dp</dimen>
+    <dimen name="custom_slide_indicator_selected_padding_right">3dp</dimen>
+    <dimen name="custom_slide_indicator_unselected_padding_left">3dp</dimen>
+    <dimen name="custom_slide_indicator_unselected_padding_right">3dp</dimen>
+    <dimen name="custom_slide_indicator_selected_width">8dp</dimen>
+    <dimen name="custom_slide_indicator_selected_height">8dp</dimen>
+    <dimen name="custom_slide_indicator_unselected_width">4dp</dimen>
+    <dimen name="custom_slide_indicator_unselected_height">4dp</dimen>
+
+
+    <!-- custom_technical_specification_item_ -->
+    <dimen name="custom_technical_specification_item_margin_left">5dp</dimen>
+    <dimen name="custom_technical_specification_item_margin_right">5dp</dimen>
+    <dimen name="custom_technical_specification_item_padding">20dp</dimen>
+    <dimen name="custom_technical_specification_item_txt_title_text_size">16sp</dimen>
+    <dimen name="custom_technical_specification_item_txt_value_text_size">16sp</dimen>
+
+
+    <!-- drawer_header_ sizes -->
+    <dimen name="drawer_header_height">150dp</dimen>
+    <dimen name="drawer_header_txt_nice_name_text_size">18sp</dimen>
+    <dimen name="drawer_header_txt_nice_name_padding_bottom">8dp</dimen>
+    <dimen name="drawer_header_txt_nice_name_padding_left">8dp</dimen>
+    <dimen name="drawer_header_txt_nice_name_padding_right">8dp</dimen>
+    <dimen name="drawer_header_txt_email_name_text_size">18sp</dimen>
+    <dimen name="drawer_header_txt_email_name_padding_bottom">8dp</dimen>
+    <dimen name="drawer_header_txt_email_name_padding_left">8dp</dimen>
+    <dimen name="drawer_header_txt_email_name_padding_right">8dp</dimen>
+    <dimen name="custom_main_product_item_txt_title_margin_top">10dp</dimen>
+
+
+</resources>

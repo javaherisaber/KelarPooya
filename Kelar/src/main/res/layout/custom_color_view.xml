@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="40dp"
+    android:layout_width="40dp"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <View
+        android:id="@+id/colorView"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+</RelativeLayout>

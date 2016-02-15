@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.slider.library.Indicators.PagerIndicator xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_indicator"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    custom:selected_color="@color/monsoon"
+    custom:unselected_color="#55555555"
+    custom:shape="oval"
+    custom:selected_padding_left="@dimen/custom_slide_indicator_selected_padding_left"
+    custom:selected_padding_right="@dimen/custom_slide_indicator_selected_padding_right"
+    custom:unselected_padding_left="@dimen/custom_slide_indicator_unselected_padding_left"
+    custom:unselected_padding_right="@dimen/custom_slide_indicator_unselected_padding_right"
+    custom:selected_width="@dimen/custom_slide_indicator_selected_width"
+    custom:selected_height="@dimen/custom_slide_indicator_selected_height"
+    custom:unselected_width="@dimen/custom_slide_indicator_unselected_width"
+    custom:unselected_height="@dimen/custom_slide_indicator_unselected_height" />

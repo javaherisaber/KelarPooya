@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/iron"
+
+        android:fitsSystemWindows="true"
+        tools:context=".activity.ActivityComment">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/background_toolbar_menu"
+                app:popupTheme="@style/MyDarkToolbarStyle"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center_vertical|right"
+                    android:id="@+id/toolbar_title" />
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <include
+            android:id="@+id/content"
+            layout="@layout/content_activity_comment" />
+
+        <include layout="@layout/content_frame_progress" />
+
+        <include layout="@layout/content_horizontal_progressbar" />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@mipmap/ic_add"
+            app:layout_anchor="@+id/content"
+            app:layout_anchorGravity="bottom|end"
+            app:layout_behavior=".view.FABScrollBehavior" />
+
+    </android.support.design.widget.CoordinatorLayout>
+    <include layout="@layout/content_no_internet_layout" />
+</android.support.v4.widget.DrawerLayout>

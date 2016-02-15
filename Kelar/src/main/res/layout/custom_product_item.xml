@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    app:cardCornerRadius="5dp"
+    app:cardPreventCornerOverlap="false"
+    android:layout_marginRight="@dimen/custom_product_item1_margin_right"
+    android:layout_marginBottom="@dimen/custom_product_item1_margin_bottom"
+    android:layout_marginTop="@dimen/custom_product_item1_margin_top"
+    android:layout_marginLeft="@dimen/custom_product_item1_margin_left"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/imgProduct"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:layout_alignParentRight="true"
+            app:placeholderImage="@drawable/default_product" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_toLeftOf="@id/imgProduct">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_marginTop="@dimen/custom_product_item1_txt_title_margin_top"
+                android:id="@+id/txtTitle" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:textColor="@color/primary_darker"
+                android:layout_alignParentRight="true"
+                android:layout_above="@id/line"
+                android:textSize="18sp"
+                android:layout_margin="15dp"
+                android:id="@+id/txtPrice" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/txtDesc"
+                android:maxLines="3"
+                android:visibility="gone"
+                android:layout_marginLeft="@dimen/custom_product_item1_txt_desc_margin_left"
+                android:layout_below="@+id/txtTitle"
+                android:layout_centerVertical="true"
+                android:ellipsize="end" />
+
+
+
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/monsoon"
+                android:layout_marginRight="10dp"
+                android:layout_above="@id/ribbon"
+                android:layout_marginLeft="10dp"/>
+
+
+            <RelativeLayout
+                android:id="@+id/ribbon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:visibility="gone"
+                    android:textColor="@color/red"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/txtOff" />
+
+                <ImageView
+                    android:layout_width="@dimen/custom_product_item1_ribbon_btn_share_size"
+                    android:layout_height="@dimen/custom_product_item1_ribbon_btn_share_size"
+                    android:id="@+id/btnShare"
+                    android:background="@drawable/background_action_selector"
+                    android:padding="@dimen/custom_purchase_basket_item_ribbon_btn_delete_padding"
+                    android:clickable="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/ic_share"/>
+
+                <ImageView
+                    android:layout_width="@dimen/custom_product_item1_ribbon_btn_favorite_size"
+                    android:layout_height="@dimen/custom_product_item1_ribbon_btn_favorite_size"
+                    android:id="@+id/btnFavorite"
+                    android:background="@drawable/background_action_selector"
+                    android:padding="@dimen/custom_purchase_basket_item_ribbon_btn_delete_padding"
+                    android:clickable="true"
+                    android:layout_toRightOf="@+id/btnShare"
+                    android:layout_marginLeft="@dimen/custom_product_item1_ribbon_btn_favorite_margin_left"
+                    android:src="@drawable/ic_favorite"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

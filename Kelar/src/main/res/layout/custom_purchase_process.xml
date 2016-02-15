@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="right"
+    android:layout_marginTop="@dimen/custom_purchase_process_margin_top"
+    android:background="@color/light_green"
+    android:clickable="true">
+    
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtBtsheetTitle"
+        android:padding="@dimen/custom_purchase_process_txt_btsheet_title_padding"
+        android:gravity="right"
+        android:layout_gravity="right" />
+
+<!--    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="رنگ مورد نظر خود را انتخاب کنید"
+        android:padding="@dimen/custom_purchase_process_txt_btsheet_title_padding"
+        android:gravity="right"
+        android:id="@+id/txtBtsheet4" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_purchase_process_spinner_layout_height"
+        android:layout_margin="@dimen/custom_purchase_process_spinner_layout_margin"
+        android:background="@drawable/spinner_background"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_drop_down_spinner" />
+        <Spinner
+            android:id="@+id/spinnerBsheetColor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:spinnerMode="dropdown" />
+
+    </RelativeLayout> -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/custom_purchase_process_ribbon_count_padding" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PRODUCT_COUNT"
+            android:textSize="@dimen/custom_purchase_process_ribbon_count_txt_btsheet3_text_size"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:id="@+id/txtBtsheet3"
+            android:layout_alignParentRight="true" />
+
+        <EditText
+            android:layout_width="@dimen/custom_purchase_process_ribbon_count_edt_btsheet_product_count_width"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/COUNT_WITHOUT_COLON"
+            android:text="1"
+            android:maxLength="4"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:ems="10"
+            android:id="@+id/edtBtsheetProductCount" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/custom_purchase_process_ribbon_price_padding_left"
+        android:paddingRight="@dimen/custom_purchase_process_ribbon_price_padding_right"
+        android:paddingBottom="@dimen/custom_purchase_process_ribbon_price_padding_bottom"
+        android:paddingTop="@dimen/custom_purchase_process_ribbon_price_padding_top" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/UNIT_PRICE"
+            android:textSize="@dimen/custom_purchase_process_ribbon_price_txt_btsheet1_text_size"
+            android:textColor="@color/red"
+            android:id="@+id/txtBtsheet1"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/custom_purchase_process_ribbon_price_txt_btsheet_value_price_text_size"
+            android:textColor="@color/red"
+            android:id="@+id/txtBtsheetValuePrice"
+            android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/custom_purchase_process_ribbon_total_price_padding_bottom"
+        android:paddingRight="@dimen/custom_purchase_process_ribbon_total_price_padding_right"
+        android:paddingBottom="@dimen/custom_purchase_process_ribbon_total_price_padding_bottom"
+        android:paddingTop="@dimen/custom_purchase_process_ribbon_total_price_padding_top">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TOTAL_PRICE"
+            android:textSize="16sp"
+            android:textColor="@color/green"
+            android:id="@+id/txtBtsheet2"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"
+            android:textSize="@dimen/custom_purchase_process_ribbon_total_price_txt_btsheet_total_price_text_size"
+            android:id="@+id/txtBtsheetTotalPrice"
+            android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_purchase_process_ribbon_btn_final_purchase_height"
+        android:background="@color/green"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/btnFinalPurchase">
+
+        <ImageView
+            android:id="@+id/imgPurchase"
+            android:layout_width="@dimen/custom_purchase_process_ribbon_btn_final_purchase_img_purchase_size"
+            android:layout_height="@dimen/custom_purchase_process_ribbon_btn_final_purchase_img_purchase_size"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="@dimen/custom_purchase_process_ribbon_btn_final_purchase_img_purchase_margin_right"
+            android:src="@drawable/ic_shopping_cart_white_24dp"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@color/white"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/txtBtSheetSubmitOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/ADD_TO_BASKET"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/custom_purchase_process_ribbon_btn_final_purchase_txt_btsheet5_text_size"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
